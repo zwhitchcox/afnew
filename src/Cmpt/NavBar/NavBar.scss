@@ -11,5 +11,11 @@
         width: 13rem;
       }
     }
+    .tools-dropdown {
+      .dropdown-menu {
+        inset: 0 auto auto 0;
+        transform: translate3d(-45px, 40px, 0px);
+      }
+    }
   }
 }

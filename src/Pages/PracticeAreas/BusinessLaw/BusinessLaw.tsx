@@ -4,6 +4,10 @@ const BusinessLaw = () => {
   return (
     <div className="business-law">
       <h2>Business Law</h2>
+      <img
+        src="/assets/practice-areas/business-law.png"
+        className="practice-area-pic"
+      />
       <p>Ashworth Law Firm represents a wide variety of business clients, from Corporations and Limited Liability
       Companies to Non-Profit entities. Our clients range from businesses starting out and going through the
       business entity formation process, to businesses that have been around for decades, but need to change

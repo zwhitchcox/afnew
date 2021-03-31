@@ -1,5 +1,7 @@
-import { Button, Dropdown, Form, FormControl, Nav, Navbar, NavDropdown, NavItem } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Dropdown, DropdownButton, Form, FormControl, Nav, Navbar, NavDropdown, NavItem } from 'react-bootstrap';
+import DropdownMenu from 'react-bootstrap/esm/DropdownMenu';
+import DropdownToggle from 'react-bootstrap/esm/DropdownToggle';
+import { Link, NavLink } from 'react-router-dom';
 import "./NavBar.scss"
 
 const NavBar = () => {
@@ -41,9 +43,25 @@ const NavBar = () => {
                 Zach Groover
               </Link>
             </NavDropdown>
-            <NavDropdown title="Tools" id="tools-dropdown">
+            <NavDropdown title="Tools" id="tools-dropdown" className="tools-dropdown">
               <Nav.Link href="https://www.lodestarss.com/Live/Ashworth/main.php">Closing Calculator</Nav.Link>
             </NavDropdown>
+            {/* <Dropdown className="nav-item">
+              <Dropdown.Toggle
+                id="tools-dropdown"
+                as={NavLink}
+                to="#"
+                className="nav-link"
+                active={false}
+              >
+                Tools
+              </Dropdown.Toggle>
+              <Dropdown.Menu
+                align={{lg: 'right'}}
+              >
+                <Nav.Link href="https://www.lodestarss.com/Live/Ashworth/main.php">Closing Calculator</Nav.Link>
+              </Dropdown.Menu>
+            </Dropdown> */}
             <Nav.Link href="https://birdeye.com/ashworth-law-firm-pllc-150576455368515">Reviews</Nav.Link>
           </Nav>
         </Navbar.Collapse>

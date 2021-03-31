@@ -4,6 +4,10 @@ const CommercialLeases = () => {
   return (
     <div className="commercial-leases">
       <h2>Commercial Leases</h2>
+      <img
+        src="/assets/practice-areas/commercial-leases.png"
+        className="practice-area-pic"
+      />
       <p>Commercial Leases Ashworth Law Firm represents various businesses that include landlords,
       tenants, restaurant chains, athletic gyms, bridal  shops,  worldwide  electronics  manufacturers,
       land  developers,  builders  and  contractors,  and  investors. Growing a business and expanding

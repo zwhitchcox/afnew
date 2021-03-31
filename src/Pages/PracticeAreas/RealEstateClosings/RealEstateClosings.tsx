@@ -4,6 +4,10 @@ const RealEstateClosings = () => {
   return (
     <div className="real-estate-closings">
       <h2>Real Estate Closings</h2>
+      <img
+        src="/assets/practice-areas/real-estate-closings.png"
+        className="practice-area-pic"
+      />
       <p>Ashworth  Law  Firm  works  closely  with  loan  officers, mortgage  brokers,  real  estate agents,
       developers,  investors, homeowners, and  homebuyers  in  middle Tennessee to see each real estate
       transaction through to completion. Our attorneys have a wide array of experience and knowledge in

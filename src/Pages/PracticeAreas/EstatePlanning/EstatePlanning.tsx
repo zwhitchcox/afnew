@@ -4,6 +4,10 @@ const EstatePlanning = () => {
   return (
     <div className="estate-planning">
       <h2>Estate Planning</h2>
+      <img
+        src="/assets/practice-areas/estate-planning.png"
+        className="practice-area-pic"
+      />
       <p>
       Planning for the future is one of the most important things you can do for your family and your
       own peace of mind. Many families are left with mountains of unpaid bills and no way to provide

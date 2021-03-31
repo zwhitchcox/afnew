@@ -4,7 +4,7 @@ const KeatonRye = () => {
   return (
     <div className="keaton-rye">
       <h2>Keaton Rye</h2>
-      <img className="bio-pic" src="/assets/people/keaton.jpg"></img>
+      <img className="bio-pic" src="/assets/people/keaton.jpg" />
       <p>
         Keaton resides in Franklin with his wife Kendle. At the Ashworth Law Firm, Keaton will assist real estate licensees, loan officers, developers, and builders handling residential and commercial real estate transactions, loan documentation, contract law, and commercial leases.  Keaton will also be handling a wide variety of civil litigation and representing local businesses.
       </p>

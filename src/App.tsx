@@ -6,7 +6,6 @@ import {
   Route,
   Link,
 } from "react-router-dom"
-import Location from './Pages/Location/Location';
 import NavBar from './Cmpt/NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import PrivacyPolicy from './Pages/Legal/PrivacyPolicy/PrivacyPolicy';
