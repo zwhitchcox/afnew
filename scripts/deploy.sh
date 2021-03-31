@@ -1,6 +1,9 @@
+rm -rf build
 yarn build
 cd build
 git init
-git remote add git@github.com:zecos/zecos.github.io
+git checkout -b gh-pages
+git remote add origin git@github.com:zwhitchcox/afnew
 git add . -A
-git push -f -u origin master
+git commit -m "full site"
+git push -f -u origin gh-pages
