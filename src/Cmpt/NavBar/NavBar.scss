@@ -1,0 +1,15 @@
+.nav {
+  width: 100%;
+  .navbar {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    .dropdown-menu {
+      a.nav-link {
+        padding: .25rem 1.5rem;
+        width: 13rem;
+      }
+    }
+  }
+}

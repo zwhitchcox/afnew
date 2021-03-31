@@ -1,0 +1,12 @@
+.attorneys {
+  .bio-pic {
+    max-width: 100%;
+    @media (min-width: 600px) {
+      float: left;
+      max-width: 40%;
+    }
+    padding: 0;
+    margin: 1rem;
+    border-radius: .4rem;
+  }
+}
