@@ -1,6 +1,12 @@
 .practice-areas {
   .practice-area-pic {
-    float: left;
+    max-width: 100%;
+    @media (min-width: 600px) {
+      float: left;
+      max-width: 40%;
     margin: 1rem;
+    }
+    padding: 0;
+    border-radius: .4rem;
   }
 }
